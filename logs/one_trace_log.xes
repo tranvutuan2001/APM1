@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<classifier name="Event Name" keys="concept:name" />
+	<string key="origin" value="csv" />
+    <trace>
+		<string key="concept:name" value="4842" />
+		<event>
+			<date key="time:timestamp" value="2021-12-23T09:00:00+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Enter into System" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-23T09:15:00+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Insurance Check Statutory" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-23T09:25:55+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Notify about vacc. possibility" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-26T15:03:52+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Acknowledge vacc. possibility" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-26T15:03:52+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Acknowledge vacc. possibility" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-28T02:31:22+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Request appointment" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-28T02:31:22+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Request appointment" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-28T02:31:22+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Appointment granted" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2021-12-28T02:31:22+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Appointment granted" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T15:45:00+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Prepare vaccine" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T15:45:00+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Prepare vaccine" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T15:51:38+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Send vaccine to cabine" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T15:51:38+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Send vaccine to cabine" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T16:25:00+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Register at vaccination facillity" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T16:25:00+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Register at vaccination facillity" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T16:29:59+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Finished Risk Talk" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T16:29:59+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Finished Risk Talk" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T16:37:16+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Submit Declaration" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T16:37:16+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Submit Declaration" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T16:42:19+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Vaccinate" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T16:42:19+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Vaccinate" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T16:57:11+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Checkout" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-01-05T16:57:11+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Checkout" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-09T10:50:10+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Send Vaccination Certificate" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-03-09T10:50:10+00:00" />
+			<int key="Patient" value="4842" />
+			<string key="concept:name" value="Send Vaccination Certificate" />
+			<string key="lifecycle:transition" value="complete" />
+			<int key="Age" value="27" />
+			<string key="Insurance" value="STAT" />
+			<int key="HealthWorker" value="0" />
+		</event>
+	</trace>
+</log>
